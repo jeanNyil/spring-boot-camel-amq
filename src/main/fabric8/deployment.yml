@@ -23,4 +23,4 @@ spec:
                 name: spring-boot-camel-amq-config
                 key: service.port.amqps
           - name: AMQP_PARAMETERS
-            value: transport.trustStoreLocation=/Users/jnyilimb/workdata/myGitHub/spring-boot-camel-amq/src/main/resources/truststore/broker.ts&transport.trustStorePassword=P@ssw0rd&transport.verifyHost=false&amqp.idleTimeout=120000
+            value: transport.trustAll=true&transport.verifyHost=false&amqp.idleTimeout=120000
